@@ -38,3 +38,15 @@ for(let pacar of pacarSaya) {
 for(let pacar in pacarSaya) {
     console.log(pacar)
 }
+
+// for each dapat value dan index array nya
+
+pacarSaya.forEach((pacar, index) => {
+    console.log(pacar, index)
+})
+
+
+pacarSaya.map((pacar, index) => {
+    console.log(pacar, index)
+})
+
