@@ -4,6 +4,7 @@
 * while & do while
 **/
 
-for (let z = 0; z < 5; z++) {
+for (let z = 100; z >= 1; z++) {
+    if (z % 2 !== 0) 
     console.log('data ke -', z)
 }
